@@ -4,8 +4,9 @@ This tutorial demonstrates setting up a GraphQL server built with node using Exp
 
 ## Use
 
- ## Releases
+## Releases
 
-1.0.0 - express server with es6 support.
-1.1.0 - initial GraphQL setup.
-1.2.0 - basic GraphQL schema.
+- 1.0.0 - express server with es6 support.
+- 1.1.0 - initial GraphQL setup.
+- 1.2.0 - basic GraphQL schema.
+- 1.3.0 - object types and fields.
