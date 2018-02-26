@@ -7,4 +7,5 @@ This tutorial demonstrates setting up a GraphQL server built with node using Exp
 ## Releases
 
 1.0.0 - express server with es6 support.
+1.1.0 - initial GraphQL setup.
 
