@@ -3,7 +3,8 @@ import mongoose from 'mongoose';
 // Mongo connection
 mongoose.Promise = global.Promise;
 mongoose.connect('mongodb://localhost/friends', {
-    useMongoClient: true
+    // The `useMongoClient` option is no longer necessary in mongoose 5.x, please remove it.   
+    // useMongoClient: true
 });
 
 const friendSchema = new mongoose.Schema({
