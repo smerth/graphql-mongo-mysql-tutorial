@@ -14,3 +14,4 @@ This tutorial demonstrates setting up a GraphQL server built with node using Exp
 - 1.5.0 - the resolver and its role.
 - 1.6.0 - scalar types.
 - 1.7.0 - ennumeration types.
+- 1.8.0 - list of types inside another.
