@@ -18,6 +18,13 @@ const typeDefs = `
         lastName: String
     }
 
+    type Alien {
+        id: ID
+        firstName: String
+        lastName: String
+        planet: String
+    }
+
     enum Gender {
         MALE
         FEMALE
