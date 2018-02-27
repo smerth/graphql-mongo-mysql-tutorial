@@ -10,3 +10,4 @@ This tutorial demonstrates setting up a GraphQL server built with node using Exp
 - 1.1.0 - initial GraphQL setup.
 - 1.2.0 - basic GraphQL schema.
 - 1.3.0 - object types and fields.
+- 1.4.0 - query and mutation types.
