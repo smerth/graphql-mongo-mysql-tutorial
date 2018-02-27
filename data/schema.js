@@ -1,5 +1,5 @@
-import { resolvers } from './resolvers';
 import { makeExecutableSchema } from 'graphql-tools';
+import { resolvers } from './resolvers';
 
 const typeDefs = `
     type Friend {
@@ -49,6 +49,7 @@ const typeDefs = `
     }
 `;
 
-const schema = makeExecutableSchema({ typeDefs, resolvers});
+const schema = makeExecutableSchema({ typeDefs, resolvers });
 
+// eslint-disable-next-line
 export { schema };

@@ -5,12 +5,15 @@ import { schema } from './data/schema';
 const app = express();
 
 app.get('/', (req, res) => {
-    res.send('GraphQL is amazing!');
+  res.send('GraphQL is amazing!');
 });
 
-app.use('/graphiql', graphqlHTTP({
-    schema: schema,
-    graphiql: true,
-}));
+app.use(
+  '/graphiql',
+  graphqlHTTP({
+    schema,
+    graphiql: true
+  })
+);
 
 app.listen(8080, () => console.log('Running server on port localhost:8080/graphiql'));
