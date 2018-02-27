@@ -15,3 +15,4 @@ This tutorial demonstrates setting up a GraphQL server built with node using Exp
 - 1.6.0 - scalar types.
 - 1.7.0 - ennumeration types.
 - 1.8.0 - list of types inside another.
+- 1.9.0 - setup of graphql with mongodb.
