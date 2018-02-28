@@ -1,4 +1,4 @@
-# GraphQL Tutorial with MongoDB and MySQLite
+# GraphQL Tutorial with Mongo DB and SQLite DB
 
 This tutorial demonstrates setting up a GraphQL server built with node using Express and resolves queries to either a MongoDB DB or a SQLite DB on the backend.
 
