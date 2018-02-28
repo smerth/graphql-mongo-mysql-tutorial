@@ -6,7 +6,12 @@ import { Friends, Aliens } from './dbConnectors';
 // eslint-disable-next-line
 export const resolvers = {
   Query: {
-    getFriend: ({ id }) => new Friend(id, friendDatabase[id]),
+    getOneFriend: (root, { id }) => new Promise((resolve, object) => {
+        Friends.findById(id, (err, friend) => {
+          if (err) reject(err);
+          else resolve(friend);
+        });
+      }),
     getAliens: () => Aliens.findAll()
   },
   Mutation: {
