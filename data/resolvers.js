@@ -29,10 +29,17 @@ export const resolvers = {
         });
       });
     },
-    updateFriend: (root, { input }) => new Promise((resolve, object) => {
+    updateFriend: (root, { input }) =>
+      new Promise((resolve, object) => {
         Friends.findOneAndUpdate({ _id: input.id }, input, { new: true }, (err, friend) => {
           if (err) reject(err);
           else resolve(friend);
+        });
+      }),
+    deleteFriend: (root, { id }) => new Promise((resolve, object) => {
+        Friends.remove({ _id: id }, err => {
+          if (err) reject(err);
+          else resolve('Successfully deleted friend');
         });
       })
   }
