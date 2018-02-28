@@ -1,12 +1,13 @@
 // import mongoose from 'mongoose';
-import { Friends } from './dbConnectors';
+import { Friends, Aliens } from './dbConnectors';
 
 // resolver map
 
 // eslint-disable-next-line
 export const resolvers = {
   Query: {
-    getFriend: ({ id }) => new Friend(id, friendDatabase[id])
+    getFriend: ({ id }) => new Friend(id, friendDatabase[id]),
+    getAliens: () => Aliens.findAll()
   },
   Mutation: {
     createFriend: (root, { input }) => {
@@ -36,7 +37,8 @@ export const resolvers = {
           else resolve(friend);
         });
       }),
-    deleteFriend: (root, { id }) => new Promise((resolve, object) => {
+    deleteFriend: (root, { id }) =>
+      new Promise((resolve, object) => {
         Friends.remove({ _id: id }, err => {
           if (err) reject(err);
           else resolve('Successfully deleted friend');

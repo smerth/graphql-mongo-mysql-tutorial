@@ -20,3 +20,4 @@ This tutorial demonstrates setting up a GraphQL server built with node using Exp
 * 1.11.0 - data persistence with sql.
 * 1.12.0 - update items with mutations.
 * 1.13.0 - delete items with mutations.
+* 1.14.0 - simple query to SQLite DB.
