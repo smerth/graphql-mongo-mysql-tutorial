@@ -1,8 +1,29 @@
 # GraphQL Tutorial with Mongo DB and SQLite DB
 
-This tutorial demonstrates setting up a GraphQL server built with node using Express and resolves queries to either a MongoDB DB or a SQLite DB on the backend.
+A GraphQL server built with NodeJS using ExpressJS. Data persistence on the backend is provided by either a MongoDB DB or an SQLite DB.
+
+![App Screenshot](https://raw.githubusercontent.com/smerth/graphql-mongo-mysql-tutorial/master/screenshot.png)
 
 ## Use
+
+* clone the repo
+* install dependancies
+
+```bash
+yarn install
+```
+
+* run the GraphQL server
+
+```bash
+yarn start
+```
+
+Running server on port `localhost:8080/graphiql`
+
+You can perform queries and mutations through the GraphiQL interface for Freind entities and Alien entities.
+
+For a full explanation of the build see the docs folder.
 
 ## Releases
 

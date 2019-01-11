@@ -1,10 +1,8 @@
 # GraphQL Essential Training
 
-# Introduction
+# Reference
 
 [Lynda.com - GraphQL Essential Training](https://www.lynda.com/GraphQL-tutorials/GraphQL-Essential-Training/614315-2.html)
-
-
 
 
 
@@ -20,7 +18,7 @@ GraphQL is a query language for any kind of API and is able to fulfill any queri
 
 The main benefit of using it is that you can ask for exactly what you want, and you get those results and nothing else. 
 
-If you followed my TypeScript and Testing and Debugging course, you're familiar with type checking. Well, guess what? GraphQL allows to describe what type of data you can expect. 
+If you followed my TypeScript and Testing and Debugging course, you're familiar with type checking. Well, guess what? GraphQL allows you to describe what type of data you can expect. 
 
 GraphQL's ecosystem is in constant growth. Not only you can get started with Facebook's own version of GraphQL, but there are multiple options for you to explore. For example, the Apollo client by the folks at Meteor is built on top of GraphQL and provides several extra features. 
 
